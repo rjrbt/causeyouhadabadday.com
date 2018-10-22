@@ -1,0 +1,40 @@
+{
+  "name": "causeyouhadabadday.com",
+  "version": "1.0.0",
+  "description": "A site you should visit and share when you are having a bad day.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:prod": "webpack --mode='production'",
+    "build:dev": "webpack",
+    "start:dev": "npm run build:dev && ./scripts/static-host",
+    "start:prod": "npm run build:prod && ./scripts/static-host"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjrbt/causeyouhadabadday.com.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/rjrbt/causeyouhadabadday.com/issues"
+  },
+  "homepage": "https://github.com/rjrbt/causeyouhadabadday.com#readme",
+  "devDependencies": {
+    "@types/react-tap-event-plugin": "0.0.30",
+    "@types/react": "16.4.14",
+    "@types/react-dom": "16.0.8",
+    "awesome-typescript-loader": "5.2.1",
+    "copy-webpack-plugin": "4.5.2",
+    "source-map-loader": "0.2.4",
+    "typescript": "3.1.1",
+    "webpack": "4.20.2",
+    "webpack-cli": "3.1.2"
+  },
+  "dependencies": {
+    "prop-types": "15.6.2",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "react-youtube": "7.8.0"
+  }
+}
